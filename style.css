@@ -19,7 +19,7 @@ h1{
 }
 
 img{
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 .header{
@@ -110,7 +110,9 @@ img{
     padding: 10px;
     margin: 0 auto;
 }
-
+section > .grid2.video{
+    width: 100%;
+}
 .sidebar > div{
     margin-bottom: 10px;
 }
@@ -132,7 +134,7 @@ img{
 }
 
 
-/*CSS GRI2*/
+/*CSS GRI3*/
 
 .grid3{
     display: grid;
@@ -150,8 +152,11 @@ img{
 
 .grid3-item{
     display: grid;
+    
 }
 .grid3-item img{
+    width: 100%;
+    align-self: end;
     grid-column: 1;
     grid-row: 1/3;
 
@@ -162,5 +167,7 @@ img{
     padding: 10px;
     color: white;
     grid-column: 1;
-    grid-row: 2
+    grid-row: 2;
+
+    align-self: end;
 }
